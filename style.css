@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 1400px;
+    background-color: antiquewhite;
+}
+#header{
+    margin-top: 20px;
+    text-align: center;
+    color: brown;
+    background-color:beige;
+    width: 1400px;
+}
+.clg img{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+}
+nav ul{
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+ nav a:link,a:visited{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 280px;
+    height: 35px;
+    background-color: brown;
+    text-align: center;
+    padding: 10px 0px;
+}
+nav a:hover{
+    color: black;
+}
+.second{
+    margin-top: 20px;
+    font-size: large;
+}
+aside{
+    background-color: lightcoral;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    float: right;
+    font-weight: bold;
+}
+.second p{
+    margin-top: 20px;
+}
+.second h2{
+    margin-top: 20px;
+}
